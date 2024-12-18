@@ -1,0 +1,182 @@
+@font-face {
+    font-family: khanda;
+    src: url(/accets/font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+   
+}
+
+.logo a{
+    padding: 0px 100px;
+  
+
+}
+
+.logo a img{
+    width: 8%;
+    margin: 5px 0px;
+}
+
+/* .logo span a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+  padding-bottom: -80px;
+
+} */
+
+.navigation{
+    background-color: #36a752c1;
+    padding: 10px;
+}
+
+nav{
+    margin: 0px 100px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px 25px;
+}
+
+nav a:hover{
+    background-color: #317d44;
+    color: red;
+    text-decoration: underline;
+}
+
+.banner{
+    background-image: url(/accets/background/ibex-9116844_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.left{
+    /* background-image: url(/accets/img/_MG_8527.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* opacity: 0.5; */
+    /* box-shadow: 2px 3px 3px rgb(128, 125, 125); */
+    width: 37%;
+    padding: 250px 100px 0px 100px;
+}
+
+.left h1{
+   font-family: khanda;
+    text-align: justify;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.left p{
+    line-height: 35px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 20px 0px;
+    /* text-shadow: 1px 2px 1px rgb(0, 0, 0); */
+    word-spacing: 10px;
+}
+
+.left button{
+    padding: 8px 20px;
+    background-color: #317d44;
+    color: white;
+    font-size: 22px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn1{
+    margin-right: 30px;
+}
+
+.btn1:hover{
+    background-color: red;
+    color: black;
+   
+}
+
+.btn2:hover{
+    background-color: red;
+    color: black;
+   
+}
+
+#about{
+    padding: 0px 100px;
+}
+
+#about h1{
+    font-family: khanda;
+    text-align: justify;
+    font-size: 60px;
+    
+}
+
+#about p{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0px;
+    /* text-shadow: 1px 2px 1px rgb(0, 0, 0); */
+    word-spacing: 10px;
+}
+#home{
+    padding: 0px 100px;
+}
+
+#home h1{
+    font-family: khanda;
+    text-align: justify;
+    font-size: 60px;
+    
+}
+
+#home p{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0px;
+    /* text-shadow: 1px 2px 1px rgb(0, 0, 0); */
+    word-spacing: 10px;
+}
+#blogs{
+    padding: 0px 100px;
+}
+
+#blogs h1{
+    font-family: khanda;
+    text-align: justify;
+    font-size: 60px;
+    
+}
+
+#blogs p{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0px;
+    /* text-shadow: 1px 2px 1px rgb(0, 0, 0); */
+    word-spacing: 10px;
+}
+
+footer{
+    background-color: #317d44;
+    padding: 10px 100px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
